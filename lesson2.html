@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок 2. Основные операторы JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/lesson2/lesson2.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper header">
+            <h1 class="header__title">Урок 2. Основные операторы JavaScript</h1>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <section class="homework">
+                <div class="homework__task">
+                    <h3>1. Объяснить почему код дает такие результаты</h3>
+                    <div class="homework__task__code">
+                        <pre>
+                            <code>
+                                //пример 1 
+                                let a = 1, b = 1, c, d; 
+                                c = ++a; 
+                                alert(c); // ответ: 2 
+                                
+                                //пример 2 
+                                d = b++; 
+                                alert(d); //ответ: 1 
+                                
+                                //пример 3 
+                                c = 2 + ++a; 
+                                alert(c); //ответ: 5 
+                                
+                                //пример 4 
+                                d = 2 + b++; 
+                                alert(d); //ответ: 4 
+                                
+                                alert(a); //3 
+                                alert(b); //3 
+                            </code>
+                        </pre>
+                    </div>
+                    <a href="#" onclick="interpretationExamples();" class="start--button">Запустить</a>
+                </div>
+                <div class="homework__task">
+                    <h3>2. Чему будут равны переменные x и a в примере ниже?</h3>
+                    <div class="homework__task__code">
+                        <pre>
+                            <code>
+                                let a = 2;
+                                let x = 1 + (a *= 2);
+                            </code>
+                        </pre>
+                    </div>
+                    <a href="#" onclick="interpretationVariables();" class="start--button">Запустить</a>
+                </div>
+                <div class="homework__task">
+                    <h3>3. Объявить две переменные a и b и задать им целочисленные произвольные начальные
+                        значения.
+
+                        Затем написать скрипт, который работает по следующему принципу:
+                        <br>
+
+                        - если a и b положительные, вывести их разность (ноль можно считать положительным числом);
+                        <br>
+                        - если а и b отрицательные, вывести их произведение;
+                        <br>
+                        - если а и b разных знаков, вывести их сумму;
+                    </h3>
+                    <a href="#" onclick="compareVariables();" class="start--button">Запустить</a>
+                </div>
+                <div class="homework__task">
+                    <h3>4. Реализовать основные 4 арифметические операции (+, -, /, *) в виде функций с двумя
+                        параметрами. Т.е. например, функция для сложения должна принимать два числа, складывать их
+                        и возвращать результат.
+                        <br>
+                        Обязательно использовать оператор return.
+                    </h3>
+                    <a href="#" onclick="checkFunc();" class="start--button">Запустить</a>
+                </div>
+                <div class="homework__task">
+                    <h3>5. Реализовать функцию с тремя параметрами: function mathOperation(arg1, arg2, operation),
+                        где arg1, arg2 – значения аргументов, operation – строка с названием операции. В зависимости от
+                        переданного значения операции (использовать switch) выполнить одну из арифметических
+                        операций (использовать функции из задания 4) и вернуть полученное значение.
+                    </h3>
+                    <a href="#" onclick="checkMath();" class="start--button">Запустить</a>
+                </div>
+                <div class="homework__task">
+                    <h3>6. Программа должна спросить у пользователя число, это будет количество денег, которое он хочет
+                        положить на счет в банке. Затем программа должна выдать примерно такое сообщение:
+                        <br>
+                        "Ваша сумма в 101 рубль успешно зачислена." - в случае если пользователь ввел 101.
+                        <br>
+                        "Ваша сумма в 10020 рублей успешно зачислена." - в случае если пользователь ввел 10020.
+                        <br>
+                        "Ваша сумма в 120104 рубля успешно зачислена." - в случае если пользователь ввел 120104.
+                        <br>
+                        То есть ваша задача выводить слово «рубль» в правильном падеже, в зависимости от введенного
+                        числа.
+                    </h3>
+                    <a href="#" onclick="countMoney();" class="start--button">Запустить</a>
+                </div>
+
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper copyright">
+            <p>© 2021 All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
