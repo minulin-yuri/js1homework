@@ -1,0 +1,145 @@
+$blue : #1906c0;
+$yellow: #e7a412;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: $blue;
+    width: 100%;
+    min-height: 10vh;
+}
+
+.wrapper {
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        margin: 0 auto;
+        padding: 50px 0;
+        color: $yellow;
+    }
+}
+
+main {
+    min-height: 70vh;
+}
+
+.lesson--list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+
+    & menu {
+        list-style-type: none;
+
+        & a {
+            text-decoration: none;   
+            
+            & li {
+                width: 500px;
+                background: $blue;
+                padding: 25px 50px;
+                border: 3px solid $yellow;
+                border-radius: 30px;
+                margin: 0 0 10px 0;
+                color: $yellow;
+                font-size: 20px;
+            }
+
+            & li:hover {
+                background: $yellow;
+                border: 3px solid $blue;
+                color: $blue;
+            }            
+        }
+ 
+    }
+}
+
+footer {
+    min-height: 10vh;
+    width: 100%;
+    background: $blue;
+
+    .copyright {
+        display: flex;
+        align-items: center;
+
+        & p {
+            margin: 15px 0 0 0;
+            color: $yellow;
+        }
+    }
+}
+
+//lesson1
+
+.homework {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 0;
+
+    &__task {
+        margin: 20px;
+
+        & h3 {
+            font-size: 20px;
+            color: black;
+            text-align: justify;
+            margin: 0 0 20px 0;
+        }
+
+        &__code {
+            background: #aaaaaa;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+.start--button {
+    margin: 20px;
+    text-decoration: none;
+    min-width: 200px;
+    min-height: 30px;  
+    background: $blue;
+    color: $yellow;
+    border: 1px solid $yellow;
+    border-radius: 10px; 
+    font-size: 18px;
+    font-weight: 500;  
+    padding: 10px 35px;
+}
+
+.start--button:hover {
+    background: #2f5cd8;
+}
+
+.task--list {
+    font-size: 20px;
+    color: black;
+    margin: 0 0 20px 30px;
+
+    & li a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.center-block {
+    margin: 20px auto;
+}
+
