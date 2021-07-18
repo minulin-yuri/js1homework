@@ -1,0 +1,12 @@
+@mixin align-block-center {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@mixin text-style($font-style, $font-weight, $font-size, $line-height) {
+    font-style: $font-style;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
