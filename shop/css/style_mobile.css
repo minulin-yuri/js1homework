@@ -1,0 +1,273 @@
+@media screen and (max-width: 760px) {
+  .products__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .products__items__item {
+    margin: 16px 0;
+  }
+  .cart__content__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cart__content__form form {
+    margin: 0;
+  }
+  .cart__content__form__checkout {
+    margin: 48px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro__center {
+    background: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .offer__center {
+    margin: 64px 0;
+  }
+  .offer__center__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .offer__center__item1, .offer__center__item2, .offer__center__item3 {
+    max-width: 343px;
+    max-height: 248px;
+    margin: 0 0 32px 0;
+  }
+  .offer__center__bottom {
+    min-width: 343px;
+    margin: 0 auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .cart__content__list {
+    margin: 39px 0 48px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cart__content__list__item {
+    max-width: 358px;
+    height: 188px;
+    margin: 0 0 30px 0;
+  }
+  .cart__content__list__item__delete svg {
+    width: 10px;
+    height: 10px;
+  }
+  .cart__content__list__item__img img {
+    height: 188px;
+  }
+  .cart__content__list__item__text {
+    margin: 0 0 0 17px;
+  }
+  .cart__content__list__item__text__title {
+    margin: 14px 0 26px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .cart__content__list__item__text p {
+    margin: 0 0 4px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .cart__content__list__item__text p input {
+    margin: 0 0 0 15px;
+    width: 24px;
+    height: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 1px 9px;
+  }
+  .cart__content__list__item__delete {
+    margin: 17px 4px 0 0;
+  }
+  .cart__content__list__buttons {
+    margin: 0;
+  }
+  .cart__content__list__buttons .shopping-button {
+    width: 175px;
+    padding: 9px 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .registration__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .registration__content__form {
+    margin-bottom: 40px;
+  }
+  .registration__content__loyalty {
+    max-width: 360px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .container {
+    max-width: 376px;
+    padding: 0 8px;
+  }
+  .header__nav {
+    padding: 18px 16px;
+  }
+  .header .menu--link {
+    display: none;
+  }
+  .intro__center__text {
+    margin: 0;
+  }
+  .intro__center__text h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .intro__center__text h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .offer {
+    margin: 64px 0;
+  }
+  .subscribe__content {
+    padding: 64px 0 110px;
+  }
+  .copyright__content {
+    padding: 43px 0 9px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .copyright__content__social {
+    margin: 0 0 40px 0;
+  }
+  .breadcrumb__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 24px 0 46px 0;
+  }
+  .products__filter__categories__title__text {
+    display: none;
+  }
+  .products__filter__categories__title svg {
+    width: 38px;
+    height: 25px;
+    margin: 0 35px 0 0;
+  }
+  .products__filter__sort {
+    margin-top: 15px;
+  }
+  .products__filter__sort__item details {
+    margin: 0 24px 0 0;
+  }
+  .products__filter__sort__item details summary h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .products__filter__sort__item .right--item {
+    margin: 0;
+  }
+  .products__items__item {
+    margin: 0 0 16px 0;
+  }
+  .slide {
+    position: relative;
+    width: 100%;
+  }
+  .slide__back {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 23px);
+  }
+  .slide__next {
+    position: absolute;
+    right: 0;
+    top: calc(50% - 23px);
+  }
+  .slide__center {
+    margin: 85px auto;
+  }
+  .slide__center__img {
+    width: 454px;
+    height: 374px;
+  }
+  .description__center {
+    margin: 0 0 64px 0;
+  }
+  .description__center__content p {
+    max-width: 326px;
+  }
+  .description__center__content .hr2 {
+    width: 175px;
+    height: 1px;
+    margin: 32px auto 49px;
+  }
+  .description__sort__item details summary h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .button--product {
+    margin-top: 59px;
+  }
+  .product-catalog {
+    margin: 0 0 64px 0;
+  }
+  .cart__content__list__buttons {
+    margin: 0;
+  }
+  .cart__content__list__buttons .left--button {
+    margin-right: 9px;
+  }
+  .breadcrumb .middle--title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=style_mobile.css.map */
